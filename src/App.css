@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ body{
+  background-color: #dc392d;
+ }
+ .container{
+  background-color: #ffffff;
+  margin-top: 1.5cm;
+  margin-left: 5cm;
+  margin-right: 3cm;
+  height: 100vh;
+  width: 75%;
+ }
+ img{
+  height: 20vh;
+  margin-left: 43%;
+ }
+ .smallbox-2 h3{
+       font: italic;
+       font-size: 20px;
+       text-align: center;
+       justify-content: center;
+       color: rgb(87, 85, 85);
+ }
+ .smallbox-2 p{
+    text-align: center;
+    justify-content: center;
+    color: rgb(136, 133, 133);
+ }
+ .smallbox-3{
+    margin-top: 1.5cm;
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: wrap;
+    
+ }
+ .button-1{
+       background-color: #1da1f2;
+       color: white;
+       padding: 12px 40px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 7px;
+    border-color: #1da1f2;
+ }
+ .button-2{
+    background-color: #3b5998;
+       color: white;
+       padding: 12px 40px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 7px;
+    border-color: #3b5998;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button-3{
+    background-color: #ea4335;
+       color: white;
+       padding: 12px 40px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 7px;
+    border-color: #ea4335;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button-4{
+    background-color: #333333;
+       color: white;
+       padding: 12px 40px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 7px;
+    border-color: #333333;
 }
-
-.App-link {
-  color: #61dafb;
+.smallbox-4{
+    margin-left: 20%;
+    margin-top: 2cm;
+    color: #81929d;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.email-box{
+    margin-top: 0;
+    padding: 12px 250px;
+    background-color: #eef2f8;
+    border-color: #eef2f8;
+    border-radius: 5px;
+}
+.smallbox-4 h3{
+    color: red;
+}
+.button-5{
+    margin-left: 80%;
+    color: white;
+    background-color: #ea4335;
+    border-color: #ea4335;
+    padding: 10px 10px;
+    font-size: 15px;
+    border-radius: 5px;
 }
